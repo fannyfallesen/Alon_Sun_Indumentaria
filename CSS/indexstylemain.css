@@ -1,0 +1,132 @@
+/************************************INDEX************************************/
+
+/************* mobile first ******************/
+@media only screen and (max-width: 600px) {
+
+/****main index****/
+
+.contenedorIndex {
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contenedorIndex h3 {
+    justify-content: center;
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+/*carousel*/
+
+#indexCarousel {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.imagenCarousel {
+    width: 100%;
+    height: auto;
+}
+
+.indicador {
+    flex-direction: row;
+}
+
+
+}
+
+/**************** dispositivos pequeños **************************/
+
+@media only screen and (min-width: 600px) {
+
+/****main****/
+
+.contenedorIndex {
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contenedorIndex h3 {
+    justify-content: center;
+    font-size: 1.3em;
+    padding: 10px 0;
+}
+
+/*carousel*/
+
+#indexCarousel {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.imagenCarousel {
+    width: 100%;
+    height: auto;
+}
+
+.indicador {
+    flex-direction: row;
+}
+
+}
+
+/***************************** tabletas **************************/
+@media (min-width: 768px) {
+
+.contenedorIndex h3 {
+    font-size: 1.5em;
+}
+
+
+}
+
+/************************ escritorio normales ********************/
+@media (min-width: 992px) {
+
+/****main****/
+
+.contenedorIndex h3 {
+    font-size: 1.6em;
+}
+
+/*carousel*/
+
+.imagenCarousel {
+    width: auto;
+    height: 400px;
+}
+
+
+}
+
+/******************** pantallas grandes **************************/
+@media (min-width: 1200px) {
+
+/****main****/
+
+.contenedorIndex h3 {
+    font-size: 1.7em;
+}
+
+
+/*carousel*/
+
+.imagenCarousel {
+    width: auto;
+    height: 400px;
+}
+
+
+}
