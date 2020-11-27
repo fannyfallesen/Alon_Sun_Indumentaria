@@ -42,6 +42,9 @@ body {
     height: auto;
 }
 
+
+
+
 /****Navbar****/
 
 .menuNavbar {
@@ -726,6 +729,8 @@ footer h6 {
           width: 270px;
           height: 100px;
       }
+
+
 
       /*navbar*/
       .menuNavbar {
