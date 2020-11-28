@@ -20,6 +20,19 @@
     padding: 10px 0;
 }
 
+.galeria {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.galeriaResponsive {
+    display: block;
+}
+
 /*carousel*/
 
 #indexCarousel {
@@ -38,6 +51,63 @@
     flex-direction: row;
 }
 
+/* Barbijos y disfraces */
+#indexPromociones {
+    background-color: #D3D3D3;
+    height: auto;
+    width: 90%;
+    margin-top: 20px;
+    box-shadow: 0 0 1rem 0.3rem rgba(0, 0, 0, 0.15);
+}
+
+.divPromociones {
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height:30%;
+    margin: 3px;
+}
+
+.divPromociones a {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.divPromociones img {
+    width: 100%;
+    height: auto;
+    border: 2px dotted #000000;
+}
+
+.varios {
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height:30%;
+    margin: 5px;
+}
+
+.varios a {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.varios img {
+    width: 130%;
+    height: auto;
+    border: 2px dotted #000000;
+}
+
+
+.ampliar:hover{
+    transform:scale(1.2,1.2);
+    -webkit-transform:scale(1.2,1.2);
+    -ms-transform:scale(1.2,1.2);
+}
 
 }
 
@@ -62,6 +132,19 @@
     padding: 10px 0;
 }
 
+.galeria {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.galeriaResponsive {
+    display: block;
+}
+
 /*carousel*/
 
 #indexCarousel {
@@ -80,6 +163,62 @@
     flex-direction: row;
 }
 
+#indexPromociones {
+    background-color: #D3D3D3;
+    height: auto;
+    width: 90%;
+    margin-top: 20px;
+    box-shadow: 0 0 1rem 0.3rem rgba(0, 0, 0, 0.15);
+}
+
+.divPromociones {
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height:30%;
+    margin: 3px;
+}
+
+.divPromociones a {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.divPromociones img {
+    width: 100%;
+    height: auto;
+    border: 3px dotted #000000;
+}
+
+.varios {
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height:30%;
+    margin: 5px;
+}
+
+.varios a {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.varios img {
+    width: 130%;
+    height: auto;
+    border: 3px dotted #000000;
+}
+
+.ampliar:hover{
+    transform:scale(1.2,1.2);
+    -webkit-transform:scale(1.2,1.2);
+    -ms-transform:scale(1.2,1.2);
+}
+
 }
 
 /***************************** tabletas **************************/
@@ -89,6 +228,67 @@
     font-size: 1.5em;
 }
 
+.galeria {
+    flex-wrap: nowrap;
+}
+
+.galeriaResponsive {
+    display: none;
+}
+
+#indexPromociones {
+    background-color: #D3D3D3;
+    height: 25%;
+    width: 80%;
+}
+
+.divPromociones {
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+    height:100%;
+}
+
+.divPromociones a {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+
+.divPromociones img {
+    width: 100%;
+    height: 100%;
+    border: 4px dotted #000000;
+}
+
+.varios {
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+    height:100%;
+}
+
+.varios a {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+
+.varios img {
+    width: 130%;
+    height: 100%;
+    border: 4px dotted #000000;
+}
+
+.ampliar:hover{
+    transform:scale(1.2,1.2);
+    -webkit-transform:scale(1.2,1.2);
+    -ms-transform:scale(1.2,1.2);
+}
 
 }
 
@@ -108,6 +308,38 @@
     height: 400px;
 }
 
+#indexPromociones {
+    background-color: #D3D3D3;
+    height: 25%;
+    width: 75%;
+}
+
+.divPromociones {
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+    height:100%;
+}
+
+.divPromociones a {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+
+.divPromociones img {
+    width: 100%;
+    height: 100%;
+    border: 5px dotted #000000;
+}
+
+.ampliar:hover{
+    transform:scale(1.2,1.2);
+    -webkit-transform:scale(1.2,1.2);
+    -ms-transform:scale(1.2,1.2);
+}
 
 }
 
@@ -128,5 +360,59 @@
     height: 400px;
 }
 
+#indexPromociones {
+    background-color: #D3D3D3;
+    height: 25%;
+    width: 70%;
+
+}
+
+.divPromociones {
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+    height:100%;
+}
+
+.divPromociones a {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+
+.divPromociones img {
+    width: 100%;
+    height: 100%;
+    border: 5px dotted #000000;
+}
+
+.varios {
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+    height:100%;
+}
+
+.varios a {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+
+.varios img {
+    width: 130%;
+    height: 100%;
+    border: 5px dotted #000000;
+}
+
+.ampliar:hover{
+    transform:scale(1.2,1.2);
+    -webkit-transform:scale(1.2,1.2);
+    -ms-transform:scale(1.2,1.2);
+}
 
 }
