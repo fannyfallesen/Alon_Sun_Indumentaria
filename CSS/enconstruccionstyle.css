@@ -1,0 +1,76 @@
+
+  /******************** pantallas grandes **************************/
+  @media (min-width: 1200px) {
+
+.rotate {
+  align-self: center;
+  width: 100%;
+  padding-left: 20px;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  -webkit-text-stroke: 2px black;
+
+}
+
+main {
+  background-color: #f4f4f4;
+}
+}
+
+/********************************** escritorio normales ******************************/
+@media (min-width: 992px) {
+  .rotate {
+    align-self: center;
+    width: 100%;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+
+  }
+}
+
+/************************************************ tabletas *********************************************/
+@media (min-width: 768px) {
+  .rotate {
+    align-self: center;
+    width: 100%;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+
+  }
+}
+
+/******************************* dispositivos pequeños **************************************/
+
+@media only screen and (min-width: 600px) {
+  .rotate {
+    align-self: center;
+    width: 100%;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+
+  }
+}
+
+/************* mobile first ******************/
+@media only screen and (max-width: 600px) {
+  .rotate {
+    align-self: center;
+    width: 100%;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+
+  }
+}

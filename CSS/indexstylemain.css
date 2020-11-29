@@ -78,7 +78,7 @@
 .divPromociones img {
     width: 100%;
     height: auto;
-    border: 2px dotted #000000;
+    border: 2px dotted #ff9642;
 }
 
 .varios {
@@ -99,7 +99,7 @@
 .varios img {
     width: 130%;
     height: auto;
-    border: 2px dotted #000000;
+    border: 2px dotted #ff9642;
 }
 
 
@@ -189,7 +189,7 @@
 .divPromociones img {
     width: 100%;
     height: auto;
-    border: 3px dotted #000000;
+    border: 3px dotted #ff9642;
 }
 
 .varios {
@@ -210,7 +210,7 @@
 .varios img {
     width: 130%;
     height: auto;
-    border: 3px dotted #000000;
+    border: 3px dotted #ff9642;
 }
 
 .ampliar:hover{
@@ -260,7 +260,7 @@
 .divPromociones img {
     width: 100%;
     height: 100%;
-    border: 4px dotted #000000;
+    border: 4px dotted #ff9642;
 }
 
 .varios {
@@ -281,7 +281,7 @@
 .varios img {
     width: 130%;
     height: 100%;
-    border: 4px dotted #000000;
+    border: 4px dotted #ff9642;
 }
 
 .ampliar:hover{
@@ -332,7 +332,28 @@
 .divPromociones img {
     width: 100%;
     height: 100%;
-    border: 5px dotted #000000;
+    border: 5px dotted #ff9642;
+}
+
+.varios {
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+    height:100%;
+}
+
+.varios a {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+
+.varios img {
+    width: 130%;
+    height: 100%;
+    border: 5px dotted #ff9642;
 }
 
 .ampliar:hover{
@@ -385,7 +406,7 @@
 .divPromociones img {
     width: 100%;
     height: 100%;
-    border: 5px dotted #000000;
+    border: 5px dotted #ff9642;
 }
 
 .varios {
@@ -406,7 +427,7 @@
 .varios img {
     width: 130%;
     height: 100%;
-    border: 5px dotted #000000;
+    border: 5px dotted #ff9642;
 }
 
 .ampliar:hover{
